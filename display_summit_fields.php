@@ -135,7 +135,7 @@ if (get_field('summit_id')) {
     // **********   Display Author username      *********************************
     // ***************************************************************************
 	echo '<td style="border: 1px solid black; padding: 1px;">';
-    echo '<b>Author:</b> ' . get_the_author_meta('user_login');
+    echo '<b>Author:</b> ' . get_the_author_meta('first_name') .' ' . get_the_author_meta('user_login');
     echo '</td>';
     // ***************************************************************************
     echo '</tr>';
